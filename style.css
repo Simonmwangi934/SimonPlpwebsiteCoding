@@ -1,0 +1,97 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+
+/* form Styles */
+
+form {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input [type="text"],
+input [type="password"] {
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid#fff;
+    margin: 8px 0;
+}
+
+button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+
+/* table Styles */
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid#ddd;
+    text-align: left;
+    padding: 20px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+/* Image and Link Styles */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
